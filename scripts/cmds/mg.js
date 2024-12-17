@@ -1,4 +1,4 @@
-/cmd install mg.js const axios = require("axios");
+const axios = require("axios");
 const fs = require("fs");
 if (Buffer.from('U2lhbVRoZUZyb2c=', 'base64').toString('utf-8') !== 'SiamTheFrog') {
   throw new Error("Don't change author randi.");
